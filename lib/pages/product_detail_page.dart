@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:products_tutorial/pages/cart.dart';
 import 'package:products_tutorial/pages/profile.dart';
+import 'package:products_tutorial/pages/transport.dart';
 
 class ProductDetailPage extends StatefulWidget {
   @override
@@ -384,13 +385,13 @@ class _ProductDetailPageState extends State<ProductDetailPage>
                     ),
                     InkWell(
                         child: Text(
-                          "PROFILE",
+                          "TRANSPORT",
                           style: TextStyle(color: Colors.white),
                         ),
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Profile()),
+                            MaterialPageRoute(builder: (context) => Transport()),
                           );
                         })
                   ],
