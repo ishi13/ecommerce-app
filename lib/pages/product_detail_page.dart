@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:products_tutorial/pages/cart.dart';
 import 'package:products_tutorial/pages/profile.dart';
 import 'package:products_tutorial/pages/transport.dart';
+import 'package:products_tutorial/pages/login.dart';
+import 'package:products_tutorial/pages/newcart.dart';
 
 class ProductDetailPage extends StatefulWidget {
   @override
@@ -423,7 +425,7 @@ class _ProductDetailPageState extends State<ProductDetailPage>
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Cart()),
+                            MaterialPageRoute(builder: (context) => MyCart()),
                           );
                         })
                   ],
